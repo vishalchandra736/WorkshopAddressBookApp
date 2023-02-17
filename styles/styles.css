@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.header {
+    padding: 15px 0px;
+    background-color: #ffffff;
+}
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 0px solid #ffffff;
+}
+
+.logo-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    border: 0px solid #ffffff;
+}
+
+.add-text{
+    font: normal normal bold 20px/25px Montserrat;
+    font-family: 'Montserrat', sans-serif;
+    color: #008CFF;
+}
+
+.add-book {
+    color:#42515F;
+}
+
+*{
+    box-sizing: border-box;
+}
