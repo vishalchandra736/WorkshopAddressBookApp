@@ -36,3 +36,39 @@ body {
 *{
     box-sizing: border-box;
 }
+
+.form-content {
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid #ffffff;
+    margin: 10px;
+    min-height: calc(100%-80px);
+}
+
+.form { 
+    background-color: #ffffff;
+    
+    width: 65%;
+    border-radius: 8px;
+    background: #ffffff 0px 0px no-repeat padding-box;
+    opacity: 1;
+    margin: 20px 0px;
+    border: 1px solid #f5f5f5;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.form-header {
+    font: normal normal normal 28px/37px Roboto;
+    color: #ffffff;
+    background-color: #008CFF;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 41px 0px 30px;
+    text-align: left;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}
